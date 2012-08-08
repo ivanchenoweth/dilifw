@@ -1,4 +1,4 @@
-Proposal of: Didactic Lightweight PHP Framework
+Didactic Lightweight PHP Framework
 dilifw Framework
 - Simple
 - Miminal PHP MVC

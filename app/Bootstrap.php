@@ -1,5 +1,6 @@
 <?php
 // first and foremost, start our sessions
+// could be replaced by a config in the registry.php with a ini file
 ob_start();   
 session_start();
 // Define all directory constants
