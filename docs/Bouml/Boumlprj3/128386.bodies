@@ -1,0 +1,16 @@
+class index_controlador
+!!!128770.php!!!	index()
+
+        echo "<pre>
+				class index_controlador, index() 
+				Controlador default
+				NOTA: Se ejecuta cuando no exista un controlador definidio en la URI 
+        	</pre>
+        ";
+        $route = route::getRoutes();		
+		var_dump($route);
+!!!128898.php!!!	testing()
+
+        echo 'class index_controlador, testing()';
+        $route = route::getRoutes();
+		var_dump($route);

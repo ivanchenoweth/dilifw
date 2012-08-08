@@ -1,0 +1,16 @@
+window_sizes 1366 706 335 1025 516 113
+diagrams
+  active  classdiagram_ref 128258 // Class Diagram Bootstrap
+    954 432 100 4 0 0
+end
+show_stereotypes
+selected 
+  package_ref 129 // Boumlprj3
+open
+  classview_ref 128130 // app
+  class_ref 128386 // index_controlador
+  classview_ref 135170 // models
+  classview_ref 128642 // Class View Bootstrap
+end
+end
+verbose

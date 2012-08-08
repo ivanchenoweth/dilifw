@@ -1,0 +1,23 @@
+class MySQLcon
+!!!137858.php!!!	conexion()
+
+			$this->host = "localhost";
+			$this->user = "root";
+			$this->pass = "123456";
+			$this->con = mysql_connect($this->host,$this->user,$this->pass);
+			mysql_select_db("loginsystem", $this->con);
+			if (!$this->con){
+				die('Error: No se pudo conectar al servidor: ' . mysql_error());
+			}    
+!!!137986.php!!!	EjecutarQuery(inout sql : sql) : mixed
+
+        $arr = Array();
+		$res =  mysql_query($sql); 
+		if (!$res) {
+			die('Invalid query: ['.$sql.']'. mysql_error());							
+		}	
+	    while ($row = @mysql_fetch_assoc($res)) {
+			$arr[]=$row;
+		}
+		// var_dump($arr);
+		return $arr;

@@ -1,0 +1,17 @@
+class Registry
+!!!128130.php!!!	__set(inout index : , inout value : )
+    // Bouml preserved body begin 0001F802
+
+		$this->vars[$index] = $value;
+    // Bouml preserved body end 0001F802
+!!!128258.php!!!	__get(inout index : )
+    // Bouml preserved body begin 0001F882
+
+		return $this->vars[$index];
+    // Bouml preserved body end 0001F882
+!!!128386.php!!!	get_vardump_sample_ini()
+    // Bouml preserved body begin 0001F902
+
+		$ini_array = parse_ini_file(ROOT . DS . "app" . DS . "conf" . DS . "sample.ini");
+		var_dump($ini_array);
+    // Bouml preserved body end 0001F902

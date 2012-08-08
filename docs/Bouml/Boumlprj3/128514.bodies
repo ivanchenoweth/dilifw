@@ -1,0 +1,20 @@
+class test_controlador
+!!!129026.php!!!	index()
+
+        echo 'Class test_controlador, index()';
+        $route = route::getRoutes();
+		var_dump($route);
+!!!129154.php!!!	metodo1()
+
+        echo 'Class test_controlador, metodo1()';
+        Registry::get_vardump_samile_ini();
+        $registry = new Registry();
+        $registry->__set("a",1);		// Registring private vars		
+        var_dump($registry);
+        $route = route::getRoutes();
+		var_dump($route);
+!!!129282.php!!!	metodo2()
+
+        echo 'Class test_controlador, metodo2()';		
+        $route = route::getRoutes();
+		var_dump($route);
